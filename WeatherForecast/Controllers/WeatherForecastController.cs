@@ -22,5 +22,11 @@ namespace WeatherForecast.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("test")]
+        public string GetTest()
+        {
+            return "hello from test";
+        }
     }
 }
